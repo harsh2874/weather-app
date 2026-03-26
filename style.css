@@ -1,0 +1,44 @@
+/* Body styling */
+body {
+  font-family: Arial, sans-serif; /* readable font */
+  text-align: center; /* content center me */
+  background: linear-gradient(
+    to right,
+    #4facfe,
+    #00f2fe
+  ); /* gradient background */
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Input box styling */
+#cityInput {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+}
+
+/* Weather result box */
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/*ROUGH WORK:
+1.search = cityInput."search" bhi use karna pad sakta hai.
+2.
+3.weather = weatherResult
+ */

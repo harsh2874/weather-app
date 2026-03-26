@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- CSS file ko link kiya -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1>Weather App</h1>
+    <form action="">
+      <!-- Input box for city name -->
+      <input type="search" id="cityInput" placeholder="Enter city name" />
+    </form>
+    <!-- Button to fetch weather -->
+    <!--  <button onclick="getWeather()">Get Weather</button>      -->
+
+    <!-- Weather result display -->
+    <div class="row" id="weatherResult">
+      <div>
+        <img
+          src="https://openweathermap.org/img/wn/04n@2x.png"
+          alt="Weather Icon"
+        />
+      </div>
+      <h2>32 °C</h2>
+      <h4>Sunny</h4>
+      <!-- from <div><img src... to </h4> is to be comment out later if api works. -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
