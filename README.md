@@ -20,7 +20,7 @@ It provides real-time weather updates including temperature, humidity, wind spee
 ## 🚀 Getting Started
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/weather-app.git 
+   git clone https://github.com/harsh2874/weather-app.git
 
 2. Navigate to the project folder
    cd weather-app
